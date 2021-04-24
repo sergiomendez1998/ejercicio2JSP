@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Resultados</title>
 
@@ -19,8 +19,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
-       
-          <h1>Listado de Resultados</h1>
+
+        <h1>Listado de Resultados</h1>
 
         <h2>JSTL</h2>
 
@@ -28,29 +28,33 @@
 
             <thead>
                 <tr>
-                   
+                    <th>valor A</th>
+                    <th>valor B</th>
+                    <th>valor C</th>
                     <th>valor X1</th>
                     <th>valor x2</th>
                 </tr>
             </thead>
             <tbody>                                
-                <c:forEach items="${listaCalculos}" var="ecua">
-                    <tr>
-                        <td>                            
-                            <fmt:formatNumber value="${ecua.valorX1}" pattern="'R' #,##0.000" />
-                        </td>
-                        
-                        <td>                            
-                            <fmt:formatNumber value="${ecua.valorX2}" pattern="'R' #,##0.000" />
-                        </td>
-                    </tr>
-                </c:forEach>
-            </tbody>
+            <c:forEach items="${listaCalculos}" var="ecua">
+                <tr>
+                    <td><c:out value="${ecua.valorA}" /></td>
+                <td><c:out value="${ecua.valorB}" /></td>
+                <td><c:out value="${ecua.valorC}" /></td>
+                <td>                            
+                <fmt:formatNumber value="${ecua.valorA}" pattern="'R' #,##0.000" />
+                </td>
+                <td>                            
+                <fmt:formatNumber value="${ecua.valorX2}" pattern="'R' #,##0.000" />
+                </td>
+                </tr>
+            </c:forEach>
+        </tbody>
 
-        </table>
-        
-        
-        
-        
-    </body>
+    </table>
+
+
+
+
+</body>
 </html>
