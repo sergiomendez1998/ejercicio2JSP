@@ -20,8 +20,8 @@ public class Ecuacion {
     private double potencia;
     private double raiz=0;
     
-    private double valorX1;
-    private double valorX2;
+    private double valorX1=0;
+    private double valorX2=0;
 
     public double getValorA() {
         return valorA;

@@ -52,9 +52,9 @@ public class EcuacionControlador extends HttpServlet {
             //seteamos la potencia
             ecua.setPotencia(Math.pow(ecua.getValorB(), 2)-(4 * ecua.getValorA()*ecua.getValorC()));
             //calculamos valor x1;
-            ecua.setValorX1(-ecua.getValorB()-(Math.sqrt(ecua.getPotencia()))/(2 * ecua.getValorA()));
+            ecua.setValorX1((-ecua.getValorB()-(Math.sqrt(ecua.getPotencia()))/(2 * ecua.getValorA())));
             // calculamos valor x2;
-            ecua.setValorX2(-ecua.getValorB()+(Math.sqrt(ecua.getPotencia()))/(2 *ecua.getValorA()));
+            ecua.setValorX2((-ecua.getValorB()+(Math.sqrt(ecua.getPotencia()))/(2 *ecua.getValorA())));
             //agregamos las variables ya calculadas
             servicioEcua.agregarResultados(ecua);
 
