@@ -42,12 +42,9 @@
                     <td><c:out value="${ecua.valorA}" /></td>
                 <td><c:out value="${ecua.valorB}" /></td>
                 <td><c:out value="${ecua.valorC}" /></td>
-                <td>                            
-                <fmt:formatNumber value="${ecua.valorX1}" pattern="'R' #,##0.000" />
-                </td>
-                <td>                            
-                <fmt:formatNumber value="${ecua.valorX2}" pattern="'R' #,##0.000" />
-                </td>
+                <td><c:out value="${ecua.valorX1}" /></td>
+                <td><c:out value="${ecua.valorX2}" /></td>
+   
                 </tr>
             </c:forEach>
         </tbody>
