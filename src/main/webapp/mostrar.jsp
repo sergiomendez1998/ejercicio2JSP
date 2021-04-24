@@ -43,7 +43,7 @@
                 <td><c:out value="${ecua.valorB}" /></td>
                 <td><c:out value="${ecua.valorC}" /></td>
                 <td>                            
-                <fmt:formatNumber value="${ecua.valorA}" pattern="'R' #,##0.000" />
+                <fmt:formatNumber value="${ecua.valorX1}" pattern="'R' #,##0.000" />
                 </td>
                 <td>                            
                 <fmt:formatNumber value="${ecua.valorX2}" pattern="'R' #,##0.000" />
