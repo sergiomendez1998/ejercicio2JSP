@@ -3,7 +3,8 @@
     Created on : Apr 24, 2021, 11:13:32 AM
     Author     : Sammy Guergachi <sguergachi at gmail.com>
 --%>
-
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
