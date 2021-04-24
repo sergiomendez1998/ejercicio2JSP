@@ -20,7 +20,7 @@
     </head>
     <body>
        
-          <h1>Listado de Paises</h1>
+          <h1>Listado de Resultados</h1>
 
         <h2>JSTL</h2>
 
@@ -36,10 +36,12 @@
             <tbody>                                
                 <c:forEach items="${listaCalculos}" var="ecua">
                     <tr>
-                        <td><c:out value="${ecua.valorX1}" /></td>
-                        <td><c:out value="${ecua.valorX2}" /></td>
                         <td>                            
-                            <fmt:formatNumber value="${pais.ranking}" pattern="'R' #,##0.000" />
+                            <fmt:formatNumber value="${ecua.valorX1}" pattern="'R' #,##0.000" />
+                        </td>
+                        
+                        <td>                            
+                            <fmt:formatNumber value="${ecua.valorX2}" pattern="'R' #,##0.000" />
                         </td>
                     </tr>
                 </c:forEach>
