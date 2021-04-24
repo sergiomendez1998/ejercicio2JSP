@@ -28,16 +28,16 @@
 
             <thead>
                 <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Ranking</th>
+                   
+                    <th>valor X1</th>
+                    <th>valor x2</th>
                 </tr>
             </thead>
             <tbody>                                
                 <c:forEach items="${listaCalculos}" var="ecua">
                     <tr>
-                        <td><c:out value="${pais.id}" /></td>
-                        <td><c:out value="${pais.nombre}" /></td>
+                        <td><c:out value="${ecua.valorX1}" /></td>
+                        <td><c:out value="${ecua.valorX2}" /></td>
                         <td>                            
                             <fmt:formatNumber value="${pais.ranking}" pattern="'R' #,##0.000" />
                         </td>
@@ -47,12 +47,7 @@
 
         </table>
         
-        <div>
-            <h3>Fecha Actual:  </h3>
-            <span>
-                <fmt:formatDate value="${currentDate}" pattern="dd-MM-yyyy HH:mm:ss" />                
-            </span>
-        </div>
+        
         
         
     </body>
