@@ -28,7 +28,7 @@ public class ListarEcuacionContraldor  extends HttpServlet {
 
         var listaCalculos = this.servicioEcua.buscarResultados();
 
-        request.setAttribute("listaCalculos",listaCalculos);
+        request.setAttribute("listaCalculos", listaCalculos);
  
 
         request.getRequestDispatcher("mostrar.jsp").forward(request, response);
