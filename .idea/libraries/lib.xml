@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/Alertas.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/MaterialButtoms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/postgresql-42.2.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/placeholder-0.0.9.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/swingx-core-1.6.2-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

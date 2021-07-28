@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clinicaProyectoFInalDesktop">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/clinicaProyectoFInalDesktop.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

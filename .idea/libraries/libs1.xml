@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/libs/MaterialButtoms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/libs/swingx-core-1.6.2-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/libs/placeholder-0.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
